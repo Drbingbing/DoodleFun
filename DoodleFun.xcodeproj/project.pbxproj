@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7F58BE5C2163945100FE5041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BE5B2163945100FE5041 /* AppDelegate.swift */; };
-		7F58BE5E2163945100FE5041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BE5D2163945100FE5041 /* ViewController.swift */; };
+		7F58BE5E2163945100FE5041 /* DoodleFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BE5D2163945100FE5041 /* DoodleFunViewController.swift */; };
 		7F58BE612163945100FE5041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BE5F2163945100FE5041 /* Main.storyboard */; };
 		7F58BE632163945200FE5041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BE622163945200FE5041 /* Assets.xcassets */; };
 		7F58BE662163945200FE5041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F58BE642163945200FE5041 /* LaunchScreen.storyboard */; };
+		7F58BE6E2163969D00FE5041 /* DoodleFunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58BE6D2163969D00FE5041 /* DoodleFunCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F58BE582163945100FE5041 /* DoodleFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F58BE5B2163945100FE5041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F58BE5D2163945100FE5041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F58BE5D2163945100FE5041 /* DoodleFunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleFunViewController.swift; sourceTree = "<group>"; };
 		7F58BE602163945100FE5041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F58BE622163945200FE5041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F58BE652163945200FE5041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F58BE672163945200FE5041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F58BE6D2163969D00FE5041 /* DoodleFunCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleFunCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				7F58BE5B2163945100FE5041 /* AppDelegate.swift */,
-				7F58BE5D2163945100FE5041 /* ViewController.swift */,
+				7F58BE5D2163945100FE5041 /* DoodleFunViewController.swift */,
 				7F58BE5F2163945100FE5041 /* Main.storyboard */,
 				7F58BE622163945200FE5041 /* Assets.xcassets */,
 				7F58BE642163945200FE5041 /* LaunchScreen.storyboard */,
 				7F58BE672163945200FE5041 /* Info.plist */,
+				7F58BE6D2163969D00FE5041 /* DoodleFunCollectionViewCell.swift */,
 			);
 			path = DoodleFun;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F58BE5E2163945100FE5041 /* ViewController.swift in Sources */,
+				7F58BE6E2163969D00FE5041 /* DoodleFunCollectionViewCell.swift in Sources */,
+				7F58BE5E2163945100FE5041 /* DoodleFunViewController.swift in Sources */,
 				7F58BE5C2163945100FE5041 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
